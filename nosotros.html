@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Store</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion"> <!--a*2 crea dos enlaces-->
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenido">
+        <h1>Sobre Nosotros</h1>
+
+        <div class="contenido__grid">
+            <div class="contenido__grid--img">
+                <img src="img/nosotros.jpg" alt="Redux">
+            </div>
+            <div class="contenido__grid--texto">
+                <p>Somos una familia petfriendly conformada por dos humanos y cinco peluditos; 
+                    de los canhijos la mayor se llama Ailyn, tiene 7 años, es una perrita mestiza talla mediana color blanco con manchas café claro;
+                     el segundo se llama Asher, tiene 5 años, es un chihuahua cabeza de venado color café con blanco; la tercera se llama Alice, con una edad de 4 años, 
+                    es una chihuahua cabeza de manzana color negro con café y blanco;
+                    después viene Chiquiz, quien tiene 3 años, es hija de Alice & Asher, tiene los mismos colores de su madre y es más pequeña y flaquita;
+                     por último pero no menos querida está Pingüina, con 3 años de edad comparte
+                      el mismo padre que Chiquiz pero diferente mami, quien es Ailyn.
+                </p>
+                <p></p>
+            </div>
+        </div>
+    </main>
+
+    <section class="contenido comprar">
+        <h2 class="comprar_titulo">¿Por qué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="por que comprar">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>Todos los días buscamos el mejor precio y el mas competitivo con nuestros proveedores para ofrecerte el mejor precio en internet.</p>
+            </div><!--.bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="por que comprar">
+                <h3 class="bloque__titulo">Variedad de productos</h3>
+                <p>Contamos con diferentes tallas, diferentes colores y diferentes diseños para hembras y machos.</p>
+            </div><!--.bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="por que comprar">
+                <h3 class="bloque__titulo">Envío gratis</h3>
+                <p>En compras mayores a $100.00. Entrega de 6 - 8 días hábiles.</p>
+            </div><!--.bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="por que comprar">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Todos nuestros productos son de buena calidad, no se rompen o deslavan fácilmente.</p>
+            </div><!--.bloque-->
+        </div><!--.bloques-->
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto"> Dog Store - Todos los derechos reservados, Marlen Andrade 2022.</p>
+    </footer>
+</body>
+</html>
